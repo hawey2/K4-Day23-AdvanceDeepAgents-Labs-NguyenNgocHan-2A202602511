@@ -1,0 +1,90 @@
+[
+  {
+    "n": 1,
+    "id": "2509.14257",
+    "url": "https://huggingface.co/papers/2509.14257",
+    "title": "From Correction to Mastery: Reinforced Distillation of Large Language Model Agents",
+    "date": "2025-09-12",
+    "source": "hf-search"
+  },
+  {
+    "n": 2,
+    "id": "2402.15809",
+    "url": "https://huggingface.co/papers/2402.15809",
+    "title": "Empowering Large Language Model Agents through Action Learning",
+    "date": "2024-02-24",
+    "source": "hf-search"
+  },
+  {
+    "n": 3,
+    "id": "2402.04559",
+    "url": "https://huggingface.co/papers/2402.04559",
+    "title": "Can Large Language Model Agents Simulate Human Trust Behaviors?",
+    "date": "2024-02-07",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2601.01885",
+    "url": "https://huggingface.co/papers/2601.01885",
+    "title": "Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents",
+    "date": "2026-01-05",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2511.14650",
+    "url": "https://huggingface.co/papers/2511.14650",
+    "title": "AutoTool: Efficient Tool Selection for Large Language Model Agents",
+    "date": "2025-11-18",
+    "source": "hf-search"
+  },
+  {
+    "n": 6,
+    "id": "aws-article-trane",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-trane-gets-building-insights-60x-faster-with-amazon-bedrock-agentcore/",
+    "title": "How Trane gets building insights 60x faster with Amazon Bedrock AgentCore",
+    "date": "2026-09-22",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "aws-article-lendingtree",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-lendingtree-built-a-multi-agent-mortgage-assistant-on-amazon-bedrock/",
+    "title": "How LendingTree built a multi-agent mortgage assistant on Amazon Bedrock",
+    "date": "2026-08-05",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "id": "web-article-rippling",
+    "url": "https://www.langchain.com/blog/how-rippling-went-ai-native-across-every-product-in-6-months-with-deep-agents-and-langsmith",
+    "title": "How Rippling built production AI in 6 months with Deep Agents and LangSmith",
+    "date": "2026-06-01",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "web1",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2024.2431068",
+    "title": "Challenges and future directions for integration of large language models in socio-technical systems",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "id": "web2",
+    "url": "https://link.springer.com/article/10.1007/s10462-025-11471-9",
+    "title": "From language to action: a review of large language models as autonomous agents and tool users",
+    "date": "2026-01-06",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "arxiv1",
+    "url": "https://arxiv.org/abs/2604.00835",
+    "title": "Large language models as autonomous agents with tool use: Paradigms, challenges and future directions",
+    "date": "n.d.",
+    "source": "arxiv"
+  }
+]

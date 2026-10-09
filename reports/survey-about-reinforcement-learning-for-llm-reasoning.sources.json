@@ -1,0 +1,98 @@
+[
+  {
+    "n": 1,
+    "id": "2509.08827",
+    "url": "https://huggingface.co/papers/2509.08827",
+    "title": "A Survey of Reinforcement Learning for Large Reasoning Models",
+    "date": "2025-09-10",
+    "source": "hf-daily"
+  },
+  {
+    "n": 2,
+    "id": "2510.01857",
+    "url": "https://huggingface.co/papers/2510.01857",
+    "title": "Learning Reasoning Reward Models from Expert Demonstration via Inverse Reinforcement Learning",
+    "date": "2025-10-02",
+    "source": "hf-daily"
+  },
+  {
+    "n": 3,
+    "id": "2504.20571",
+    "url": "https://huggingface.co/papers/2504.20571",
+    "title": "Reinforcement Learning for Reasoning in Large Language Models with One Training Example",
+    "date": "2025-04-29",
+    "source": "hf-daily"
+  },
+  {
+    "n": 4,
+    "id": "2505.24864",
+    "url": "https://huggingface.co/papers/2505.24864",
+    "title": "ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models",
+    "date": "2025-05-30",
+    "source": "hf-daily"
+  },
+  {
+    "n": 5,
+    "id": "2402.05808",
+    "url": "https://huggingface.co/papers/2402.05808",
+    "title": "Training Large Language Models for Reasoning through Reverse Curriculum Reinforcement Learning",
+    "date": "2024-02-08",
+    "source": "hf-daily"
+  },
+  {
+    "n": 6,
+    "id": "web1",
+    "url": "https://dlnext.acm.org/doi/10.1145/3837057",
+    "title": "Reinforcement Learning in the Era of Large Language Models: Challenges and Opportunities",
+    "date": "2026-09-29",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "web2",
+    "url": "https://aclanthology.org/2026.acl-long.1045.pdf",
+    "title": "A Survey of Reinforcement Learning for Large Language Models under Data Scarcity: Challenges and Solutions",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "id": "web3",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/537d5aa768c2d534016a4d06f87bc8fb-Paper-Conference.pdf",
+    "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "pubmed_41142903",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41142903/",
+    "title": "A survey of reinforced reasoning with large language models",
+    "date": "2025-10-10",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "id": "raschka_2025_04",
+    "url": "https://magazine.sebastianraschka.com/p/the-state-of-llm-reasoning-model-training",
+    "title": "The State of Reinforcement Learning for LLM Reasoning",
+    "date": "2025-04-19",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "arxiv_2605.06638v3",
+    "url": "https://arxiv.org/pdf/2605.06638v3",
+    "title": "Can RL Teach Long-Horizon Reasoning to LLMs? Expressiveness Is Key",
+    "date": "2026-05-16",
+    "source": "arxiv"
+  },
+  {
+    "n": 12,
+    "id": "nvidia_prorl_v2_2025",
+    "url": "https://developer.nvidia.com/blog/scaling-llm-reinforcement-learning-with-prolonged-training-using-prorl-v2/",
+    "title": "Scaling LLM Reinforcement Learning with Prolonged Training Using ProRL v2 | NVIDIA Technical Blog",
+    "date": "2025-08-13",
+    "source": "web"
+  }
+]

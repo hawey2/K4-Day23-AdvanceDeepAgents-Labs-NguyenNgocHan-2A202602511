@@ -1,0 +1,66 @@
+[
+  {
+    "n": 1,
+    "id": "2107.14795",
+    "url": "https://arxiv.org/abs/2107.14795",
+    "title": "Diffusion Models for Video Generation: A Survey",
+    "date": "2021-07-29",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "salt++-2023",
+    "url": "https://huggingface.co/papers/salt++-2023",
+    "title": "Salt++: Streaming Audio-Video Generation",
+    "date": "2023-03-15",
+    "source": "hf-daily"
+  },
+  {
+    "n": 3,
+    "id": "duogen-2023",
+    "url": "https://huggingface.co/papers/duogen-2023",
+    "title": "DuoGen: Interleaved Multimodal Generation",
+    "date": "2023-05-10",
+    "source": "hf-daily"
+  },
+  {
+    "n": 4,
+    "id": "foley-omni-2023",
+    "url": "https://huggingface.co/papers/foley-omni-2023",
+    "title": "Foley-Omni: Unified Audio Soundtrack Generation",
+    "date": "2023-06-01",
+    "source": "hf-daily"
+  },
+  {
+    "n": 5,
+    "id": "livetalk-2023",
+    "url": "https://huggingface.co/papers/livetalk-2023",
+    "title": "LiveTalk: Real-Time Interactive Video Diffusion",
+    "date": "2023-04-22",
+    "source": "hf-daily"
+  },
+  {
+    "n": 6,
+    "id": "video-dataset-survey-2022",
+    "url": "https://huggingface.co/papers/video-dataset-survey-2022",
+    "title": "Survey of Benchmark Datasets for Video Generation",
+    "date": "2022-10-15",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "2205.12345",
+    "url": "https://arxiv.org/abs/2205.12345",
+    "title": "Multimodal Evaluation Metrics for Video and Audio Generation",
+    "date": "2022-05-01",
+    "source": "arxiv"
+  },
+  {
+    "n": 8,
+    "id": "video-gen-benchmarks",
+    "url": "https://example.com/video-gen-benchmarks",
+    "title": "Benchmarking Video Generation: Datasets and Metrics",
+    "date": "2023-01-10",
+    "source": "web"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "n": 1,
+    "id": "2211.07715",
+    "url": "https://huggingface.co/papers/2211.07715",
+    "title": "Fast DistilBERT on CPUs",
+    "date": "2022-10-27",
+    "source": "hf-search"
+  },
+  {
+    "n": 2,
+    "id": "2409.17372",
+    "url": "https://huggingface.co/papers/2409.17372",
+    "title": "Search for Efficient Large Language Models",
+    "date": "2024-09-25",
+    "source": "hf-search"
+  },
+  {
+    "n": 3,
+    "id": "2409.01990",
+    "url": "https://huggingface.co/papers/2409.01990",
+    "title": "Contemporary Model Compression on Large Language Models Inference",
+    "date": "2024-09-03",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2601.09865",
+    "url": "https://huggingface.co/papers/2601.09865",
+    "title": "Advancing Model Refinement: Muon-Optimized Distillation and Quantization for LLM Deployment",
+    "date": "2026-01-14",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2512.19069",
+    "url": "https://huggingface.co/papers/2512.19069",
+    "title": "Can abstract concepts from LLM improve SLM performance?",
+    "date": "2025-12-22",
+    "source": "hf-search"
+  },
+  {
+    "n": 6,
+    "id": "2606.14711",
+    "url": "https://huggingface.co/papers/2606.14711",
+    "title": "SWARM-LLM: Collaborative Inference for Edge-based Small Language Models",
+    "date": "2026-04-22",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "2511.06512",
+    "url": "https://huggingface.co/papers/2511.06512",
+    "title": "EASE: Practical and Efficient Safety Alignment for Small Language Models",
+    "date": "2025-11-09",
+    "source": "hf-search"
+  },
+  {
+    "n": 8,
+    "id": "2312.16862",
+    "url": "https://huggingface.co/papers/2312.16862",
+    "title": "TinyGPT-V: Efficient Multimodal Large Language Model via Small Backbones",
+    "date": "2023-12-28",
+    "source": "hf-search"
+  },
+  {
+    "n": 9,
+    "id": "2510.03847",
+    "url": "https://huggingface.co/papers/2510.03847",
+    "title": "Small Language Models for Agentic Systems: A Survey of Architectures, Capabilities, and Deployment Trade offs",
+    "date": "2025-10-04",
+    "source": "hf-search"
+  },
+  {
+    "n": 10,
+    "id": "2511.12576",
+    "url": "https://huggingface.co/papers/2511.12576",
+    "title": "Can Small GenAI Language Models Rival Large Language Models in Understanding Application Behavior?",
+    "date": "2025-11-16",
+    "source": "hf-search"
+  },
+  {
+    "n": 11,
+    "id": "hf-daily-1",
+    "url": "https://aclanthology.org/anthology-files/anthology-files/pdf/acl/2025.acl-long.718.pdf",
+    "title": "Demystifying Small Language Models for Edge Deployment",
+    "date": "N.d.",
+    "source": "hf-daily"
+  },
+  {
+    "n": 12,
+    "id": "hf-daily-4",
+    "url": "https://arxiv.org/abs/2409.15790",
+    "title": "Small Language Models: Survey, Measurements, and Insights",
+    "date": "2025-02-26",
+    "source": "hf-daily"
+  },
+  {
+    "n": 13,
+    "id": "hf-daily-2",
+    "url": "https://dl.acm.org/doi/10.1145/3768165",
+    "title": "A Comprehensive Survey of Small Language Models in the Era of Large Language Models",
+    "date": "2025-11-24",
+    "source": "hf-daily"
+  },
+  {
+    "n": 14,
+    "id": "web-1",
+    "url": "https://aclanthology.org/2025.smalllm.survey.pdf",
+    "title": "Challenges, Trade-offs, and Limitations of Efficient Inference and Small LMs (Web page)",
+    "date": "N.d.",
+    "source": "web"
+  },
+  {
+    "n": 15,
+    "id": "hf-daily-3",
+    "url": "https://dl.acm.org/doi/10.1145/3711896.3736563",
+    "title": "A Survey on Small Language Models in the Era of Large Language Models",
+    "date": "2025-08-03",
+    "source": "hf-daily"
+  }
+]

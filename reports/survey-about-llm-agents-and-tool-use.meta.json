@@ -1,0 +1,23 @@
+{
+  "topic": "survey about LLM agents and tool use",
+  "model": "openai:gpt-4.1-mini",
+  "elapsed_s": 329.3,
+  "subagent_calls": 8,
+  "tool_calls": {
+    "write_todos": 3,
+    "task": 8,
+    "read_file": 4,
+    "write_file": 2,
+    "execute": 2
+  },
+  "tokens": {
+    "input": 150896,
+    "output": 3974
+  },
+  "n_sources": 11,
+  "source_families": [
+    "arxiv",
+    "hf-search",
+    "web"
+  ]
+}

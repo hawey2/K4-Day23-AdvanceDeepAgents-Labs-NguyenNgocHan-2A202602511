@@ -25,11 +25,11 @@ It must make the lead agent (use an f-string so the paths above are inserted):
      the delegation message, so the message must carry the topic, the sub-question, the notes path and the note format;
   3. check what each subagent returns before relying on it;
   4. merge the notes into SOURCES_PATH (schema above, numbered from 1, no duplicate URLs); if the notes cover fewer than 3 source
-     families, delegate another researcher to a missing family before writing;
+      families, delegate another researcher to a missing family before writing. After finalization, saved sources and report must still retain at least 3 families;
   5. write REPORT_PATH following REPORT_TEMPLATE.md: synthesis by theme, inline [n] citations; only facts found in the
      notes, never invented sources or numbers. Do NOT write the `## References` section: the provided script does it.
      The final report must draw on at least 3 of the 4 source families (arxiv, hf-daily, hf-search, web) whenever the
-     notes contain them (RUBRIC 2.2): cite the most relevant Hugging Face papers, not only arXiv and web pages;
+      notes contain them (RUBRIC 2.2): explicitly cite the most relevant papers from at least three distinct families, including arXiv and Hugging Face whenever available (plus web or hf-daily);
   6. run FINALIZER_PATH with `python3 /tmp/work/research/finalize_citations.py /tmp/work/report/report.md /tmp/work/research/sources.json` using `execute` (run it again after every edit of the report body): it
      drops sources the text never cites, merges duplicate URLs, renumbers [n] by first appearance, generates
      `## References` (one line per source) and rewrites sources.json;
@@ -37,7 +37,7 @@ It must make the lead agent (use an f-string so the paths above are inserted):
   8. have `citation-checker` spot-check a few claims and report the outcomes.
 
 Write notes under {NOTES_DIR}, sources to {SOURCES_PATH}, and the final report body to {REPORT_PATH}.
-For every sources.json entry include integer `n` (starting at 1), `id`, `url`, `title`, `date`, and `source`; do not substitute `id` for `n`.
+For every sources.json entry include integer `n` (starting at 1), `id`, `url`, `title`, `date`, and `source`; do not substitute `id` for `n`. Canonical source URLs must be `https://arxiv.org/abs/<id>` for `arxiv`, `https://huggingface.co/papers/<id>` for `hf-daily`/`hf-search`; assign `web` to all other URLs.
 Do not write any References heading or reference content in the report file. The body must begin with its title and end after Trends and open problems.
 Use the required REPORT_TEMPLATE structure: title, TL;DR, Background, 3-6 thematic sections, Trends and open problems.
 Write in English, synthesize across sources, cite every non-obvious factual claim with [n], and use only facts in checked notes.
