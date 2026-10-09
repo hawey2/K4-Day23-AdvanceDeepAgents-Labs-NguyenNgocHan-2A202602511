@@ -37,7 +37,9 @@ def _group_numbers(group):
 
 def _body_of(report_text):
     matches = list(_REF_HEADING.finditer(report_text))
-    return (report_text[:matches[-1].start()] if matches else report_text).rstrip()
+    if matches:
+        return (report_text[:matches[0].start()] + report_text[matches[-1].end():]).rstrip()
+    return report_text.rstrip()
 
 
 def finalize(report_text, sources):
@@ -47,11 +49,20 @@ def finalize(report_text, sources):
     if bad:
         return report_text, sources, bad
     body = _body_of(report_text)
-    by_n = {s["n"]: s for s in sources if isinstance(s.get("n"), int)}
+    by_n = {}
+    for index, source in enumerate(sources, start=1):
+        number = source.get("n")
+        if isinstance(number, int) and not isinstance(number, bool):
+            by_n[number] = source
+        elif str(number or "").isdigit():
+            by_n[int(number)] = source
+        elif str(source.get("id", "")).isdigit():
+            by_n[int(source["id"])] = source
+        else:
+            return report_text, sources, [f"source entry {index} has no usable n/id number"]
     canonical = {}
-    for entry in sources:
-        if isinstance(entry.get("n"), int):
-            canonical.setdefault(entry["url"], entry["n"])
+    for number, entry in by_n.items():
+        canonical.setdefault(entry["url"], number)
     alias = {n: canonical[entry["url"]] for n, entry in by_n.items()}  # duplicate url -> first number
     segments = _CODE.split(body)                                       # odd indexes are code: never touched
     order, problems = [], []
